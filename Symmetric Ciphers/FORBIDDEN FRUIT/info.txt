@@ -1,0 +1,6 @@
+This is a GCM counter with this solution
+    https://aes.cryptohack.org/forbidden_fruit/
+
+The implementation is similar to the paper but the results are not matching :(
+    the logic is simple and explained the above doc
+    

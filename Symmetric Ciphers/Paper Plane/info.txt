@@ -1,0 +1,4 @@
+we have a CBC padding oracle attack
+    we can get a decryption oracle from this and get the flag
+
+Flag: crypto{h3ll0_t3l3gr4m}

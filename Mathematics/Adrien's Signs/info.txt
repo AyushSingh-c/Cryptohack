@@ -1,0 +1,4 @@
+in this solution we are assuming the order of a%p is <= (p-1)//2 
+    this way if the flag bit is 1 the value of x^((p-1)//2) == 1
+    else x^((p-1)//2) == -1
+    
