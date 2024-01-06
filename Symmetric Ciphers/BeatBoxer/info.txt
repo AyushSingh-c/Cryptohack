@@ -1,0 +1,3 @@
+The S box is actually linear function 
+
+The whole encryption is a linear eq of key and plaintext

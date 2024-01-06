@@ -1,0 +1,5 @@
+given an ECC we need to use torus isomerism of this curve to get solution of discrete log with LLL
+
+Solution -  https://hackmd.io/@grhkm/By-_iF795
+
+Flag - crypto{real_fields_arent_finite}

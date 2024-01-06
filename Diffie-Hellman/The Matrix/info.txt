@@ -1,0 +1,10 @@
+This is rsa in group GF(50, GF(2)) - given a plaintext P matrix the ciphertext C matrix = P^e (where e = 31337)
+    let G represent GF(50, GF(2)) 
+    |G| is order of this field
+        d*e == 1 mod |G|
+    we need to find d to get the P matrix from C as  P = C^d 
+        as C belongs in G, |C| divides |G|(by Lagrange's theorem)
+        we need to find the order of C matrix and fortunately we can with .multiplicative_order()
+        d = e^-1 mod |C|
+
+Flag: crypto{there_is_no_spoon_66eff188}

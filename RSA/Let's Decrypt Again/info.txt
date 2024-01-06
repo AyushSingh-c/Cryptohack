@@ -1,0 +1,19 @@
+we get initial N,E and SIGNATURE
+we get suffix when we give new N
+
+to get flag we have to generate a msg/E with 3 types of patterns such that encode(msg+suffix) == SIGNATURE^E % N
+
+patterns    
+    ^This is a test(.*)for a fake signature.$
+    ^My name is ([a-zA-Z\s]+) and I own CryptoHack.org$
+    btc_check
+
+values with each pattern we get are - [a, b, a^b^flag]
+
+we can get valid bitcoin addresses from the net - BTC_valid_addresses
+    these satisfies the btc_check function
+
+now we have a partial discrete logarithm where we need to choose e, n given g, h st g^x == h mod n
+    we can use pohlig hellman algo with smooth primes and get the perfect combo
+
+Flag: crypto{let's_decrypt_w4s_t0o_ez_do_1t_ag41n}

@@ -1,0 +1,27 @@
+Code analysis:
+    H[i] = E(H[i-1]^M[i])^M[i]
+    The substitution box S_B of encryption has a major flaw - S_B[6] = 7  and S_B[7] = 6
+        this means if the input is a list of 6,7 the encryption is just another list of 6,7
+            steps of encryption are - 
+                31 times
+                    xor with subkeys - they are 0, 1
+                    permutation with S_R 
+                    substitution with S_B
+                    xoring in set of 3
+                xor with subkeys
+            all these steps result in a list of 6,7 if the input is a list of 6,7
+        So the hash function will always be a list of 0,1 if the input is the list of 6,7
+
+Solution:
+    as the input is a list of 6,7 - 2**16 possiblities and desired output is a list of 0(hash should be a list of 0) we can brute force all possible values
+        if i only take on block of message - a list of 6,7
+            the best i can do :(
+                data:  [(7, 7), (6, 7), (6, 7), (6, 6), (6, 6), (7, 7), (6, 7), (6, 6)]
+                hash:  [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 1)]
+        if i take 2 blocks of message :)(for first block i picked with random)
+            i got the solution
+                input_list[0]:  [(7, 6), (7, 7), (7, 7), (7, 6), (6, 6), (6, 6), (6, 6), (6, 6)]
+                input_list[1]:  [(6, 6), (6, 6), (6, 6), (7, 7), (6, 7), (7, 6), (7, 6), (7, 6)]
+                hash:  [(0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0), (0, 0)]
+
+Flag: crypto{preimages_of_the_all_zero_output}

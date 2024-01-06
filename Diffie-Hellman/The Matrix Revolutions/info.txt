@@ -1,0 +1,11 @@
+https://ttu-ir.tdl.org/server/api/core/bitstreams/2b668c24-8ad9-4c95-9bc4-7388a923e27c/content
+https://ceur-ws.org/Vol-1000/ICTERI-2013-p-352-359-ITER.pdf
+
+given G, G^x, G^y find G^xy
+shared_secret = G^xy 
+
+we can divide the characteristic polynomial in two irreducible polynomials of deg 61 and 89
+    solve for the eigen values in field 2**61 and 2**89
+    find the dlog for each possible eigen values 
+    use CRT to get the final x or y value
+

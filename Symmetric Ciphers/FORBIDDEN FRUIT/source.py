@@ -33,7 +33,7 @@ def generate_tag(associated_data, plaintext, ciphertext):
         g *= h
         # print("\nB: ", hex(b.to_integer()), "\nG: ", hex(g.to_integer()))
     g += s
-    print("H: ", hex(h.to_integer()), "\nS: ", hex(s.to_integer()),"\nG: ", hex(g.to_integer()), "\nContent: ", content.hex())
+    print("H: ", hex((h).to_integer()), "\nS: ", hex(s.to_integer()),"\nG: ", hex(g.to_integer()), "\nContent: ", content.hex())
     return g
 
 
@@ -58,16 +58,35 @@ def encrypt(plaintext):
         "associated_data": header.hex()
     }
 
-plaintext = "61"*16
-# plaintext = "61"*15 + "62"
-enc = encrypt(plaintext)
-print(enc)
+def compare_tag(plaintext):
+    enc = encrypt(plaintext)
+    print(enc)
 
-tag_gen1 = generate_tag(enc["associated_data"], plaintext, enc["ciphertext"])
-tag_ac1 = enc["tag"]
+    tag_gen = generate_tag(enc["associated_data"], plaintext, enc["ciphertext"])
+    tag_ac = enc["tag"]
 
-# print(hex(tag_gen1.to_integer()))
-# print(tag_ac1)
+    print("plaintext: ", plaintext)
+    print("ciphertext: ", enc["ciphertext"])
+    print("my tag: ",hex(tag_gen.to_integer())[2:])
+    bytes.fromhex(tag_ac)
+    print("python tag: ", tag_ac)
+
+    return tag_gen
+
+tag1 = compare_tag("61"*15 + "00")
+tag2 = compare_tag("61"*15 + "01")
+
+print("tag sum", hex((tag1+tag2).to_integer())[2:])
+
+K = FiniteField(2**128, name='x')
+cipher = AES.new(KEY, AES.MODE_ECB)
+h = cipher.encrypt(b'\x00'*16)
+h = K.from_integer(int.from_bytes(h, 'big'))
+h = h**3
+h *= 0x100000000
+
+print(hex((h).to_integer()))
+
 
 # plaintext = "61"*15 + "62"
 # enc = encrypt(plaintext)
@@ -87,9 +106,9 @@ tag_ac1 = enc["tag"]
     # a = S.gen()
     # print(a)041e501690830c7af350dc70adb93491
 
-K = FiniteField(2**128, name='x')
-g1 = K.from_integer(1)
-g2 = K.from_integer(2)
+# K = FiniteField(2**128, name='x')
+# g1 = K.from_integer(1)
+# g2 = K.from_integer(2)
 
-print(g1+g2)
+# print(g1+g2)
 

@@ -1,0 +1,4 @@
+json delivery exploit
+    not proper sanitization of input
+
+Flag: crypto{thanx_for_ctf_inspiration_https://mastodon.social/@filippo/109360453402691894}

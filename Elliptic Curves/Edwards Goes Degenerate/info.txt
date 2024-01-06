@@ -1,0 +1,5 @@
+the recover_x function is wrong - it always returns 0. The comparision on  x**2 == xsqr is always false as it is not in mod p
+    so single_mul(curve, n, [x, y]) == [0, y^n mod p]
+    we can do discrete log to get the values of private keys of alice and bob
+
+Flag: crypto{degenerates_will_never_keep_a_secret}

@@ -1,0 +1,997 @@
+GNU gdb (Debian 13.2-1) 13.2
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/_cffi_backend.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/../../libffi.so.8)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/lib-dynload/../../libz.so.1)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/signals.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/../../.././libgmp.so.10)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/sage_object.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/persist.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/lazy_import.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/lib-dynload/../../liblzma.so.5)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/instancedoc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/inherit_comparison.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/nested_class.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/classcall_metaclass.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/category_object.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/getattr.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/debug_options.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/cachefunc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/function_mangling.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/weak_dict.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/dict_del_by_value.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/lazy_attribute.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/c3_controlled.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/fast_methods.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/constant_function.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/richcmp.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/builtin_types.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/category_cy_helper.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/coerce_dict.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/parent.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/map.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/sets/pythonclass.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/category_singleton.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/functor.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/morphism.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/arith/power.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/lazy_string.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/coerce.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/gmpy2/gmpy2.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/gmpy2/../../../libmpc.so.3)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/action.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/coerce_actions.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/coerce_maps.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/type.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/parent_gens.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/parent_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/parent_old.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/mutability.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/element_wrapper.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/misc_c.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/debug.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/alarm.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/string.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/sage_timeit_class.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/session.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/lib-dynload/../../libcrypto.so.3)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/lib-dynload/../../libssl.so.3)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/fpickle.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/reset.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/../../../../libgsl.so.25)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/abc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/ring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/randstate.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/gmp/pylong.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/categories/coercion_methods.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/integer.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/rational.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/fast_arith.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/arith/rational_reconstruction.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/integer_ring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/pari_instance.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/gen.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/stack.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/string_utils.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/convert.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/closure.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cypari2/handle_error.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/ext/memory.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field_element_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_mpfr.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_double.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/allocator.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_double_element_gsl.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/mpmath/utils.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/complex_mpfr.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/complex_conversion.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/pari/convert_sage_complex_double.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/parser.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/error.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/convert.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_pContext.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_p.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZX.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_pX.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_pEContext.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_pE.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_ZZ_pEX.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_lzz_pContext.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_lzz_p.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/element_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/integer_mod.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/arith/functions.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/arith/srange.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_lzz_pX.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_mat_ZZ.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_GF2.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_GF2X.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_GF2EContext.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_GF2E.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_GF2EX.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_mat_GF2E.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/ntl/ntl_mat_GF2.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/symmetrica/symmetrica.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/symmetrica/../../../../../libsymmetrica.so.2)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/data_structures/bitset.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/memory_allocator/memory_allocator.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/data_structures/bitset_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/interfaces/sagespawn.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/interfaces/process.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/pselect.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/pysignals.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/factory.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/commutative_polynomial.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/binary_tree.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_compiled.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/multi_polynomial.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polydict.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/derivative.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/integer_lists/base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/list_clone.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/integer_lists/invlex.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_printing.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/pow_computer.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/local_generic_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_generic_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_capped_relative_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/morphism.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/common_conversion.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/pari/convert_gmp.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/finite_field_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_capped_absolute_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_fixed_mod_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_floating_point_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/free_module_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/complex_interval.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_mpfi.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/convert/mpfi.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/cpython/wrapperdescr.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/fraction_field_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/function_field/element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/function_field/element_rational.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_rational_flint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/flint/fmpz_poly.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_arb.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/real_lazy.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/complex_arb.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_complex_arb.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_integer_dense_flint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/evaluation_flint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_real_mpfr_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/cyclotomic.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/noncommutative_ideals.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/multi_polynomial_ring_base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/constructor.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/args.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/module.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/element_givaro.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/../../../../../libgivaro.so.9)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/../../../../.././libgmpxx.so.4)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/element_pari_ffelt.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/group.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field_morphisms.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/evaluation_ntl.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/number_field/number_field_element_quadratic.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/residue_field.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/pow_computer_ext.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/pow_computer_flint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_ZZ_pX_FM_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_ZZ_pX_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_ext_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_ZZ_pX_CR_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/padic_ZZ_pX_CA_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/qadic_flint_CR.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/qadic_flint_CA.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/qadic_flint_FM.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/qadic_flint_FP.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/relative_ramified_FM.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/pow_computer_relative.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/relative_ramified_FP.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/relative_ramified_CA.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/padics/relative_ramified_CR.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/semirings/tropical_semiring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/laurent_polynomial.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix0.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/power_series_poly.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/power_series_ring_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/power_series_mpoly.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/power_series_pari.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/laurent_series_ring_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/multi_polynomial_libsingular.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../../libSingular-4.2.1.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../../libpolys-4.2.1.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../../libfactory-4.2.1.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../../libsingular_resources-4.2.1.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../.././libreadline.so.8)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../.././libtinfow.so.6)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/../../../../../././libtinfo.so.6)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/singular/function.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/plural.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/element_ntl_gf2e.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/singular/ring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/singular/singular.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/bin/../libexec/singular/MOD/singmathic.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/singular/polynomial.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/multi_polynomial_ideal_libsingular.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/singular/option.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/bin/../libexec/singular/MOD/p_Procs_FieldIndep.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/complex_mpc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/tate_algebra_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/puiseux_series_ring_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/ext/fast_callable.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/bernoulli_mod_p.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/bernmm.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/symbolic/ring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/symbolic/expression.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/symbolic/function.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/combinat_cython.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/monoids/free_abelian_monoid_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/with_basis/indexed_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/data_structures/blas_dict.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/lazy_list.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/callable_dict.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/words/word_char.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/words/word_datatypes.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/algebras/quatalg/quaternion_algebra_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/algebras/quatalg/quaternion_algebra_cython.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix1.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix2.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_integer_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_rational_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/pari/convert_flint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/arith/multi_modular.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_modn_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../libgd.so.3)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../.././libpng16.so.16)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../.././libfreetype.so.6)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../.././libjpeg.so.8)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../.././libtiff.so.6)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../.././libwebp.so.7)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../././libexpat.so.1)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../././libzstd.so.1)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../././libLerc.so.4)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../././libdeflate.so.0)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/../../../../././libsharpyuv.so.0)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/modsym/p1list.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/misc/search.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/algebras/finite_dimensional_algebras/finite_dimensional_algebra_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/algebras/clifford_algebra_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/quadratic_forms/quadratic_form__evaluate.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/quadratic_forms/count_local_2.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/algebras/lie_algebras/lie_algebra_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/old.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/arithgroup/arithgroup_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/matrix_gps/group_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/matrix_gps/group_element_gap.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/libgap_wrapper.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/gap/element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/gap/util.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/perm_gps/permgroup_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/gap/libgap.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/sets/recursively_enumerated_set.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/permutation_cython.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/generic_graph_pyx.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/graph_backends.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/c_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/dense_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/static_sparse_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/static_sparse_backend.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/views.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/distances_all_pairs.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/boost_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/line_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/connectivity.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/base/static_dense_graph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/path_enumeration.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/traversals.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/comparability.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/arithgroup/congroup.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/arithgroup/farey_symbol.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/modsym/heilbronn.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/modsym/apply.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix_cyclo_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/misc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix_sparse.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_modn_sparse.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_integer_sparse.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/data_structures/binary_search.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix_rational_sparse.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modules/vector_rational_sparse.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/modform/eis_series_cython.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/independent_sets.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/weakly_chordal.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/asteroidal_triples.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/chrompoly.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/rankwidth.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/tree_decomposition.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/sets/disjoint_set.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/perm_gps/partn_ref2/refinement_generic.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/groups/perm_gps/partn_ref/data_structures.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/vertex_separation.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/fast_digraph.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/clique_separators.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/matchpoly.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/cliquer.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/spanning_tree.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_decompositions/graph_products.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/convexity_properties.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/numerical/backends/generic_backend.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/isoperimetric_inequalities.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/graph_coloring.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/matrices/dancing_links.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/numerical/mip.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/graphs/hyperbolicity.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/modular/pollack_stevens/dist.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/functions/prime_pi.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/primecountpy/primecount.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/primecountpy/../../../libprimecount.so.7)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/schemes/hyperelliptic_curves/hypellfrob.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/matrix/matrix_generic_dense.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/factorint.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/flint/fmpz_factor.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/lib-dynload/../../libsqlite3.so.0)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/sets/finite_set_map_cy.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/probability/probability_distribution.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/integration.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/ext/interpreters/wrapper_rdf.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/interpolation.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/ode.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/var.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/transforms/fft.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/calculus/transforms/dwt.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/gsl/array.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/crypto/sbox.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/crypto/boolean_function.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/pbori/../../../../../../libbrial.so.3)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/ext/fast_eval.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/plot/plot3d/index_face_set.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/plot/plot3d/base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/plot/plot3d/transform.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/plot/plot3d/shapes.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/plot/plot3d/parametric_surface.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/expnums.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/debruijn_sequence.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/flint/arith.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/posets/hasse_cython.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/partitions.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/root_system/reflection_group_element.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/root_system/reflection_group_c.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/lrcalc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/combinat/enumeration_mod_permgroup.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/geometry/abc.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/geometry/triangulation/base.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/dynamics/arithmetic_dynamics/projective_ds_helper.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/quadratic_forms/ternary.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/libs/pari/convert_sage.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/hom_finite_field.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_zz_pex.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/finite_rings/hom_prime_finite_field.cpython-311-x86_64-linux-gnu.so)
+(No debugging symbols found in /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_ring_homomorphism.cpython-311-x86_64-linux-gnu.so)
+[Thread debugging using libthread_db enabled]
+Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
+Warning: 'set logging off', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled off'.
+
+Warning: 'set logging on', an alias for the command 'set logging enabled', is deprecated.
+Use 'set logging enabled on'.
+
+[2J[H[;34m[----------------------------------registers-----------------------------------][0m
+[m[;32mRAX[0m: 0xfffffffffffffe00 
+[;32mRBX[0m: 0x53a0 
+[;32mRCX[0m: [;31m0x7f050ea931b7[0m (<__GI___wait4+87>:	cmp    rax,0xfffffffffffff000)
+[;32mRDX[0m: 0x0 
+[;32mRSI[0m: 0x0 
+[;32mRDI[0m: 0x53d0 
+[;32mRBP[0m: [;32m0x7f050ded5130[0m ("Unhandled SIGABRT: An abort() occurred.")
+[;32mRSP[0m: [;34m0x7f050dedd820[0m --> 0x53a0 
+[;32mRIP[0m: [;31m0x7f050ea931b7[0m (<__GI___wait4+87>:	cmp    rax,0xfffffffffffff000)
+[;32mR8 [0m: 0x0 
+[;32mR9 [0m: 0xca 
+[;32mR10[0m: 0x0 
+[;32mR11[0m: 0x293 
+[;32mR12[0m: 0x1cd332b 
+[;32mR13[0m: 0x6 
+[;32mR14[0m: [;34m0x7ffc3fc7afd8[0m --> [;34m0x55a4dde98210[0m --> [;34m0x55a4b93f6a20[0m --> 0xb ('\x0b')
+[;32mR15[0m: 0x39a832c[0m
+[m[;32mEFLAGS[0m: 0x293 ([;1;31mCARRY[0m [;32mparity[0m [;1;31mADJUST[0m [;32mzero[0m [;1;31mSIGN[0m [;32mtrap[0m [;1;31mINTERRUPT[0m [;32mdirection[0m [;32moverflow[0m)[0m
+[m[;34m[-------------------------------------code-------------------------------------][0m[0m
+[m   0x7f050ea931ac <__GI___wait4+76>:[;2m	mov    edi,DWORD PTR [rsp+0x10][0m
+   0x7f050ea931b0 <__GI___wait4+80>:[;2m	mov    eax,0x3d[0m
+   0x7f050ea931b5 <__GI___wait4+85>:[;2;32m	syscall[0m
+=> 0x7f050ea931b7 <__GI___wait4+87>:[;1;32m	cmp    rax,0xfffffffffffff000[0m
+   0x7f050ea931bd <__GI___wait4+93>:[;33m	ja     0x7f050ea931f0 <__GI___wait4+144>[0m
+   0x7f050ea931bf <__GI___wait4+95>:[m	mov    edi,r8d[0m
+   0x7f050ea931c2 <__GI___wait4+98>:[m	mov    DWORD PTR [rsp+0x10],eax[0m
+   0x7f050ea931c6 <__GI___wait4+102>:[;1;4;31m	call   0x7f050ea44ae0 <__GI___pthread_disable_asynccancel>[0m[0m
+[m[;34m[------------------------------------stack-------------------------------------][0m[0m
+[m0000| [;34m0x7f050dedd820[0m --> 0x53a0 [0m
+[m0008| [;34m0x7f050dedd828[0m --> 0x0 [0m
+[m0016| [;34m0x7f050dedd830[0m --> 0x53d0 [0m
+[m0024| [;34m0x7f050dedd838[0m --> 0x0 [0m
+[m0032| [;34m0x7f050dedd840[0m --> [;34m0x7ffc3fc7afd8[0m --> [;34m0x55a4dde98210[0m --> [;34m0x55a4b93f6a20[0m --> 0xb ('\x0b')[0m
+[m0040| [;34m0x7f050dedd848[0m --> [;31m0x7f050dece2cc[0m (<print_enhanced_backtrace+92>:	mov    rax,QWORD PTR [rsp+0x458])[0m
+[m0048| [;34m0x7f050dedd850[0m --> 0x0 [0m
+[m0056| [;34m0x7f050dedd858[0m --> 0x0 [0m
+[;34m[------------------------------------------------------------------------------][0m
+[mLegend: [;31mcode[0m, [;34mdata[0m, [;32mrodata[0m, value[0m
+0x00007f050ea931b7 in __GI___wait4 (pid=0x53d0, stat_loc=0x0, options=0x0, 
+    usage=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
+
+Stack backtrace
+---------------
+    usage=0x0) at ../sysdeps/unix/sysv/linux/wait4.c:30
+        sc_ret = 0xfffffffffffffe00
+        sc_cancel_oldtype = 0x0
+        sc_ret = <optimized out>
+#1  0x00007f050dece2cc in print_enhanced_backtrace ()
+   from /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/signals.cpython-311-x86_64-linux-gnu.so
+No symbol table info available.
+#2  0x00007f050decea5a in sigdie ()
+   from /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/signals.cpython-311-x86_64-linux-gnu.so
+No symbol table info available.
+#3  0x00007f050ded0f84 in cysigs_signal_handler ()
+   from /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/cysignals/signals.cpython-311-x86_64-linux-gnu.so
+No symbol table info available.
+#4  <signal handler called>
+No locals.
+#5  __pthread_kill_implementation (threadid=<optimized out>, 
+    signo=signo@entry=0x6, no_tid=no_tid@entry=0x0) at ./nptl/pthread_kill.c:44
+        tid = <optimized out>
+        ret = 0x0
+        pd = <optimized out>
+        old_mask = {
+          __val = {0x7ffc3fc7ac90}
+        }
+        ret = <optimized out>
+#6  0x00007f050ea4a15f in __pthread_kill_internal (signo=0x6, 
+    threadid=<optimized out>) at ./nptl/pthread_kill.c:78
+No locals.
+#7  0x00007f050e9fc472 in __GI_raise (sig=sig@entry=0x6)
+    at ../sysdeps/posix/raise.c:26
+        ret = <optimized out>
+#8  0x00007f050e9e64b2 in __GI_abort () at ./stdlib/abort.c:79
+        save_stage = 0x1
+        act = {
+          __sigaction_handler = {
+            sa_handler = 0x20,
+            sa_sigaction = 0x20
+          },
+          sa_mask = {
+            __val = {0x0, 0x0, 0xfcb96a00accf8e00, 0x7f041e06faf0, 
+              0x7f04177d8940, 0x55a4b5c5d9f8, 0x32, 0x7f04177ae130, 
+              0x7f04633b5423, 0xfffffa29, 0x7f04633b4046, 0x55a4b6d9c6d0, 
+              0x7f04171cbf40, 0x0, 0xfcb96a00accf8e00, 0x0}
+          },
+          sa_flags = 0x62bf7ea2,
+          sa_restorer = 0x7f0462c41408 <NTL::ZZ_pInfo>
+        }
+#9  0x00007f0462bc272c in NTL::TerminalError (
+    s=s@entry=0x7f0462bf7ea2 "Polynomial too big for FFT") at tools.cpp:24
+No locals.
+#10 0x00007f0462b0ae75 in NTL::ResourceError (
+    msg=0x7f0462bf7ea2 "Polynomial too big for FFT")
+    at ../include/NTL/tools.h:564
+No locals.
+#11 NTL::ToFFTRep_trunc (y=..., x=..., k=k@entry=0x1a, 
+    len=len@entry=0x39a832c, lo=lo@entry=0x0, hi=0x1cd332b) at ZZ_pX.cpp:1492
+        FFTInfo = 0x55a4b871a0f0
+        TmpSpace = 0x55a4b810eda0
+        n = <optimized out>
+        i = <optimized out>
+        j = <optimized out>
+        m = <optimized out>
+        j1 = <optimized out>
+        t = <optimized out>
+        nprimes = <optimized out>
+        ilen = <optimized out>
+        xx = <optimized out>
+#12 0x00007f0462b0bbdf in NTL::ToFFTRep_trunc (len=0x39a832c, k=0x1a, x=..., 
+    y=...) at ../include/NTL/ZZ_pX.h:587
+No locals.
+#13 NTL::FFTMul (x=..., a=..., b=...) at ZZ_pX.cpp:2924
+        da = <optimized out>
+        db = <optimized out>
+        d = 0x39a832b
+        k = 0x1a
+        R1 = {
+          k = 0x1a,
+          MaxK = 0x1a,
+          len = 0x0,
+          NumPrimes = 0x1,
+          tbl = {
+            dp = {
+              dp = 0x55a4b83ac4b0
+            },
+            len = 0x1
+          }
+        }
+        R2 = {
+          k = 0x1a,
+          MaxK = 0x1a,
+          len = 0x0,
+          NumPrimes = 0x1,
+          tbl = {
+            dp = {
+              dp = 0x55a4b903f260
+            },
+            len = 0x1
+          }
+        }
+#14 0x00007f0462b0c40f in NTL::mul (c=..., a=..., b=...) at ZZ_pX.cpp:495
+        mbits = <optimized out>
+        rat = <optimized out>
+        k = <optimized out>
+        s = <optimized out>
+#15 0x00007f0462aef464 in NTL::mul (c=..., a=..., b=...) at ZZ_pEX.cpp:637
+        A = {
+          rep = {
+            static relocatable = 0x1,
+            static copyable = <error reading variable: Missing ELF symbol "_ZN3NTL3VecINS_4ZZ_pEE8copyableE".>,
+            _vec__rep = {
+              rep = 0x55a4dde98210
+            }
+          }
+        }
+        B = {
+          rep = {
+            static relocatable = 0x1,
+            static copyable = <error reading variable: Missing ELF symbol "_ZN3NTL3VecINS_4ZZ_pEE8copyableE".>,
+            _vec__rep = {
+              rep = 0x55a4ff7b0fc0
+            }
+          }
+        }
+        C = {
+          rep = {
+            static relocatable = 0x1,
+            static copyable = <error reading variable: Missing ELF symbol "_ZN3NTL3VecINS_4ZZ_pEE8copyableE".>,
+            _vec__rep = {
+              rep = 0x0
+            }
+          }
+        }
+        da = <optimized out>
+        db = <optimized out>
+        n = <optimized out>
+        n2 = <optimized out>
+        i = <optimized out>
+        j = <optimized out>
+        Clen = <optimized out>
+        lc = <optimized out>
+        dc = <optimized out>
+        tmp = {
+          rep = {
+            static relocatable = 0x1,
+            static copyable = <error reading variable: Missing ELF symbol "_ZN3NTL3VecINS_4ZZ_pEE8copyableE".>,
+            _vec__rep = {
+              rep = 0x0
+            }
+          }
+        }
+#16 0x00007f04170f173a in __pyx_f_4sage_5rings_10polynomial_17polynomial_zz_pex_19Polynomial_template__mul_(__pyx_obj_4sage_5rings_10polynomial_17polynomial_zz_pex_Polynomial_template*, _object*, int) ()
+   from /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/rings/polynomial/polynomial_zz_pex.cpython-311-x86_64-linux-gnu.so
+No symbol table info available.
+#17 0x00007f050ddbfb7d in __pyx_pw_4sage_9structure_7element_7Element_77__mul__
+    ()
+   from /home/ayush/mambaforge/envs/sage/lib/python3.11/site-packages/sage/structure/element.cpython-311-x86_64-linux-gnu.so
+No symbol table info available.
+#18 0x000055a4b5929119 in binary_op1 (op_slot=0x10, w=0x7f04171ca440, 
+    v=0x7f04171c92a0)
+    at /usr/local/src/conda/python-3.11.5/Objects/abstract.c:893
+        x = <optimized out>
+        slotv = 0x7f050ddbfb29 <__pyx_pw_4sage_9structure_7element_7Element_77__mul__>
+        slotw = 0x0
+        slotv = <optimized out>
+        slotw = <optimized out>
+        x = <optimized out>
+        x = <optimized out>
+#19 PyNumber_Multiply (v=0x7f04171c92a0, w=0x7f04171ca440)
+    at /usr/local/src/conda/python-3.11.5/Objects/abstract.c:1111
+        result = <optimized out>
+        mv = <optimized out>
+        mw = <optimized out>
+#20 0x000055a4b58d043d in _PyEval_EvalFrameDefault (
+    tstate=tstate@entry=0x55a4b5c5d9f8 <_PyRuntime+166328>, 
+    frame=<optimized out>, frame@entry=0x7f050ec96020, 
+    throwflag=throwflag@entry=0x0)
+    at /usr/local/src/conda/python-3.11.5/Python/ceval.c:5553
+        rhs = 0x7f04171ca440
+        lhs = 0x7f04171c92a0
+        res = <optimized out>
+        opcode = <optimized out>
+        oparg = <optimized out>
+        eval_breaker = <optimized out>
+        cframe = {
+          use_tracing = 0x0,
+          current_frame = 0x7f050ec960b0,
+          previous = 0x55a4b5c5db48 <_PyRuntime+166664>
+        }
+        call_shape = {
+          kwnames = 0x0
+        }
+        prev_cframe = <optimized out>
+        names = <optimized out>
+        consts = <optimized out>
+        first_instr = <optimized out>
+        next_instr = 0x7f050e573522
+        stack_pointer = 0x7f050ec96110
+        exception_unwind = <optimized out>
+        dying = <optimized out>
+        __func__ = "_PyEval_EvalFrameDefault"
+        opcode_targets = {0x55a4b57e77fb <_PyEval_EvalFrameDefault-948677>, 
+          0x55a4b58cfc0b <_PyEval_EvalFrameDefault+2635>, 
+          0x55a4b58cf842 <_PyEval_EvalFrameDefault+1666>, 
+          0x55a4b58d1dec <_PyEval_EvalFrameDefault+11308>, 
+          0x55a4b58d3097 <_PyEval_EvalFrameDefault+16087>, 
+          0x55a4b58d0cf6 <_PyEval_EvalFrameDefault+6966>, 
+          0x55a4b58d2fdd <_PyEval_EvalFrameDefault+15901>, 
+          0x55a4b58d46ac <_PyEval_EvalFrameDefault+21740>, 
+          0x55a4b58d0491 <_PyEval_EvalFrameDefault+4817>, 
+          0x55a4b58d1174 <_PyEval_EvalFrameDefault+8116>, 
+          0x55a4b58d5829 <_PyEval_EvalFrameDefault+26217>, 
+          0x55a4b58d3abb <_PyEval_EvalFrameDefault+18683>, 
+          0x55a4b58d4286 <_PyEval_EvalFrameDefault+20678>, 
+          0x55a4b58d1ae0 <_PyEval_EvalFrameDefault+10528>, 
+          0x55a4b58d22a2 <_PyEval_EvalFrameDefault+12514>, 
+          0x55a4b58d4b17 <_PyEval_EvalFrameDefault+22871>, 
+          0x55a4b58d145d <_PyEval_EvalFrameDefault+8861>, 
+          0x55a4b58d0217 <_PyEval_EvalFrameDefault+4183>, 
+          0x55a4b58d234a <_PyEval_EvalFrameDefault+12682>, 
+          0x55a4b58d42fa <_PyEval_EvalFrameDefault+20794>, 
+          0x55a4b58d1362 <_PyEval_EvalFrameDefault+8610>, 
+          0x55a4b58d3394 <_PyEval_EvalFrameDefault+16852>, 
+          0x55a4b58cf8ec <_PyEval_EvalFrameDefault+1836>, 
+          0x55a4b58cff1b <_PyEval_EvalFrameDefault+3419>, 
+          0x55a4b58d0e77 <_PyEval_EvalFrameDefault+7351>, 
+          0x55a4b58d395e <_PyEval_EvalFrameDefault+18334>, 
+          0x55a4b58d12c9 <_PyEval_EvalFrameDefault+8457>, 
+          0x55a4b58d2b50 <_PyEval_EvalFrameDefault+14736>, 
+          0x55a4b58cfc56 <_PyEval_EvalFrameDefault+2710>, 
+          0x55a4b58d1e1d <_PyEval_EvalFrameDefault+11357>, 
+          0x55a4b58d4d7b <_PyEval_EvalFrameDefault+23483>, 
+          0x55a4b58d50a0 <_PyEval_EvalFrameDefault+24288>, 
+          0x55a4b58d4d19 <_PyEval_EvalFrameDefault+23385>, 
+          0x55a4b58d59c0 <_PyEval_EvalFrameDefault+26624>, 
+          0x55a4b58d1db6 <_PyEval_EvalFrameDefault+11254>, 
+          0x55a4b58d38ab <_PyEval_EvalFrameDefault+18155>, 
+          0x55a4b58d3b23 <_PyEval_EvalFrameDefault+18787>, 
+          0x55a4b57e5b4a <_PyEval_EvalFrameDefault-956022>, 
+          0x55a4b58cfac3 <_PyEval_EvalFrameDefault+2307>, 
+          0x55a4b58d0187 <_PyEval_EvalFrameDefault+4039>, 
+          0x55a4b58d0093 <_PyEval_EvalFrameDefault+3795>, 
+          0x55a4b58d122c <_PyEval_EvalFrameDefault+8300>, 
+          0x55a4b58d0879 <_PyEval_EvalFrameDefault+5817>, 
+          0x55a4b58d32ae <_PyEval_EvalFrameDefault+16622>, 
+          0x55a4b58d0b8f <_PyEval_EvalFrameDefault+6607>, 
+          0x55a4b58d0117 <_PyEval_EvalFrameDefault+3927>, 
+          0x55a4b58cf3cb <_PyEval_EvalFrameDefault+523>, 
+          0x55a4b58d485d <_PyEval_EvalFrameDefault+22173>, 
+          0x55a4b58cf56b <_PyEval_EvalFrameDefault+939>, 
+          0x55a4b58d524b <_PyEval_EvalFrameDefault+24715>, 
+          0x55a4b57e6a7a <_PyEval_EvalFrameDefault-952134>, 
+          0x55a4b57e6bad <_PyEval_EvalFrameDefault-951827>, 
+          0x55a4b57e4c3e <_PyEval_EvalFrameDefault-959874>, 
+          0x55a4b58d3976 <_PyEval_EvalFrameDefault+18358>, 
+          0x55a4b57e50d6 <_PyEval_EvalFrameDefault-958698>, 
+          0x55a4b58cf7a3 <_PyEval_EvalFrameDefault+1507>, 
+          0x55a4b58d072a <_PyEval_EvalFrameDefault+5482>, 
+          0x55a4b58d462c <_PyEval_EvalFrameDefault+21612>, 
+          0x55a4b58d3e7a <_PyEval_EvalFrameDefault+19642>, 
+          0x55a4b58cfb98 <_PyEval_EvalFrameDefault+2520>, 
+          0x55a4b58d5102 <_PyEval_EvalFrameDefault+24386>, 
+          0x55a4b58d4210 <_PyEval_EvalFrameDefault+20560>, 
+          0x55a4b58d1fc7 <_PyEval_EvalFrameDefault+11783>, 
+          0x55a4b58d0378 <_PyEval_EvalFrameDefault+4536>, 
+          0x55a4b58cfb0e <_PyEval_EvalFrameDefault+2382>, 
+          0x55a4b58d07ec <_PyEval_EvalFrameDefault+5676>, 
+          0x55a4b58d1c38 <_PyEval_EvalFrameDefault+10872>, 
+          0x55a4b58d2e62 <_PyEval_EvalFrameDefault+15522>, 
+          0x55a4b58d17c2 <_PyEval_EvalFrameDefault+9730>, 
+          0x55a4b58d5308 <_PyEval_EvalFrameDefault+24904>, 
+          0x55a4b58d563d <_PyEval_EvalFrameDefault+25725>, 
+          0x55a4b58d51d5 <_PyEval_EvalFrameDefault+24597>, 
+          0x55a4b58d2106 <_PyEval_EvalFrameDefault+12102>, 
+          0x55a4b58d056d <_PyEval_EvalFrameDefault+5037>, 
+          0x55a4b57e5090 <_PyEval_EvalFrameDefault-958768>, 
+          0x55a4b58d37d5 <_PyEval_EvalFrameDefault+17941>, 
+          0x55a4b58cfdac <_PyEval_EvalFrameDefault+3052>, 
+          0x55a4b58d0bff <_PyEval_EvalFrameDefault+6719>, 
+          0x55a4b58d16b2 <_PyEval_EvalFrameDefault+9458>, 
+          0x55a4b58d2704 <_PyEval_EvalFrameDefault+13636>, 
+          0x55a4b58d09e6 <_PyEval_EvalFrameDefault+6182>, 
+          0x55a4b58d19ce <_PyEval_EvalFrameDefault+10254>, 
+          0x55a4b58d57b1 <_PyEval_EvalFrameDefault+26097>, 
+          0x55a4b58cf444 <_PyEval_EvalFrameDefault+644>, 
+          0x55a4b58d4c7c <_PyEval_EvalFrameDefault+23228>, 
+          0x55a4b58d5db9 <_PyEval_EvalFrameDefault+27641>, 
+          0x55a4b58d1544 <_PyEval_EvalFrameDefault+9092>, 
+          0x55a4b57e5d1a <_PyEval_EvalFrameDefault-955558>, 
+          0x55a4b57e516c <_PyEval_EvalFrameDefault-958548>, 
+          0x55a4b58d3638 <_PyEval_EvalFrameDefault+17528>, 
+          0x55a4b58d3c30 <_PyEval_EvalFrameDefault+19056>, 
+          0x55a4b58d5169 <_PyEval_EvalFrameDefault+24489>, 
+          0x55a4b58d5013 <_PyEval_EvalFrameDefault+24147>, 
+          0x55a4b58cf73e <_PyEval_EvalFrameDefault+1406>, 
+          0x55a4b58d5d3d <_PyEval_EvalFrameDefault+27517>, 
+          0x55a4b58d4003 <_PyEval_EvalFrameDefault+20035>, 
+          0x55a4b58d295f <_PyEval_EvalFrameDefault+14239>, 
+          0x55a4b58d5cc7 <_PyEval_EvalFrameDefault+27399>, 
+          0x55a4b57e57dd <_PyEval_EvalFrameDefault-956899>, 
+          0x55a4b58d1666 <_PyEval_EvalFrameDefault+9382>, 
+          0x55a4b58cf330 <_PyEval_EvalFrameDefault+368>, 
+          0x55a4b58d3f21 <_PyEval_EvalFrameDefault+19809>, 
+          0x55a4b58d18e8 <_PyEval_EvalFrameDefault+10024>, 
+          0x55a4b58d248c <_PyEval_EvalFrameDefault+13004>, 
+          0x55a4b58d56d3 <_PyEval_EvalFrameDefault+25875>, 
+          0x55a4b58d205f <_PyEval_EvalFrameDefault+11935>, 
+          0x55a4b58d337c <_PyEval_EvalFrameDefault+16828>, 
+          0x55a4b58d164e <_PyEval_EvalFrameDefault+9358>, 
+          0x55a4b58d5bc4 <_PyEval_EvalFrameDefault+27140>, 
+          0x55a4b58d4f85 <_PyEval_EvalFrameDefault+24005>, 
+          0x55a4b58d0b56 <_PyEval_EvalFrameDefault+6550>, 
+          0x55a4b58d29d3 <_PyEval_EvalFrameDefault+14355>, 
+          0x55a4b58d3cc2 <_PyEval_EvalFrameDefault+19202>, 
+          0x55a4b58d2a28 <_PyEval_EvalFrameDefault+14440>, 
+          0x55a4b58cf884 <_PyEval_EvalFrameDefault+1732>, 
+          0x55a4b58cfeb3 <_PyEval_EvalFrameDefault+3315>, 
+          0x55a4b58d2cbb <_PyEval_EvalFrameDefault+15099>, 
+          0x55a4b58d10a0 <_PyEval_EvalFrameDefault+7904>, 
+          0x55a4b58d182a <_PyEval_EvalFrameDefault+9834>, 
+          0x55a4b58d5390 <_PyEval_EvalFrameDefault+25040>, 
+          0x55a4b58d15bc <_PyEval_EvalFrameDefault+9212>, 
+          0x55a4b58d3583 <_PyEval_EvalFrameDefault+17347>, 
+          0x55a4b58d040b <_PyEval_EvalFrameDefault+4683>, 
+          0x55a4b58d252f <_PyEval_EvalFrameDefault+13167>, 
+          0x55a4b58cf2da <_PyEval_EvalFrameDefault+282>, 
+          0x55a4b58cf6df <_PyEval_EvalFrameDefault+1311>, 
+          0x55a4b58d5f73 <_PyEval_EvalFrameDefault+28083>, 
+          0x55a4b58d4430 <_PyEval_EvalFrameDefault+21104>, 
+          0x55a4b58d1118 <_PyEval_EvalFrameDefault+8024>, 
+          0x55a4b58d1405 <_PyEval_EvalFrameDefault+8773>, 
+          0x55a4b58d49f6 <_PyEval_EvalFrameDefault+22582>, 
+          0x55a4b57e679d <_PyEval_EvalFrameDefault-952867>, 
+          0x55a4b58d2db6 <_PyEval_EvalFrameDefault+15350>, 
+          0x55a4b58d23e9 <_PyEval_EvalFrameDefault+12841>, 
+          0x55a4b58d24f3 <_PyEval_EvalFrameDefault+13107>, 
+          0x55a4b58d28a0 <_PyEval_EvalFrameDefault+14048>, 
+          0x55a4b58d3908 <_PyEval_EvalFrameDefault+18248>, 
+          0x55a4b58cf685 <_PyEval_EvalFrameDefault+1221>, 
+          0x55a4b58d3faa <_PyEval_EvalFrameDefault+19946>, 
+          0x55a4b58d5eea <_PyEval_EvalFrameDefault+27946>, 
+          0x55a4b58d511a <_PyEval_EvalFrameDefault+24410>, 
+          0x55a4b58d06a3 <_PyEval_EvalFrameDefault+5347>, 
+          0x55a4b58d343d <_PyEval_EvalFrameDefault+17021>, 
+          0x55a4b58cfd45 <_PyEval_EvalFrameDefault+2949>, 
+          0x55a4b58d44e2 <_PyEval_EvalFrameDefault+21282>, 
+          0x55a4b58d08f0 <_PyEval_EvalFrameDefault+5936>, 
+          0x55a4b58d2689 <_PyEval_EvalFrameDefault+13513>, 
+          0x55a4b58d47be <_PyEval_EvalFrameDefault+22014>, 
+          0x55a4b58d4955 <_PyEval_EvalFrameDefault+22421>, 
+          0x55a4b58d02ae <_PyEval_EvalFrameDefault+4334>, 
+          0x55a4b58cf37e <_PyEval_EvalFrameDefault+446>, 
+          0x55a4b58d401b <_PyEval_EvalFrameDefault+20059>, 
+          0x55a4b58d5891 <_PyEval_EvalFrameDefault+26321>, 
+          0x55a4b58d3211 <_PyEval_EvalFrameDefault+16465>, 
+          0x55a4b58d0dd2 <_PyEval_EvalFrameDefault+7186>, 
+          0x55a4b58d369b <_PyEval_EvalFrameDefault+17627>, 
+          0x55a4b58d4b7f <_PyEval_EvalFrameDefault+22975>, 
+          0x55a4b58d3d3d <_PyEval_EvalFrameDefault+19325>, 
+          0x55a4b58d1bb8 <_PyEval_EvalFrameDefault+10744>, 
+          0x55a4b58d40fd <_PyEval_EvalFrameDefault+20285>, 
+          0x55a4b58d3173 <_PyEval_EvalFrameDefault+16307>, 
+          0x55a4b58cf4ea <_PyEval_EvalFrameDefault+810>, 
+          0x55a4b58d5737 <_PyEval_EvalFrameDefault+25975>, 
+          0x55a4b58d5e7b <_PyEval_EvalFrameDefault+27835>, 
+          0x55a4b58d3bbe <_PyEval_EvalFrameDefault+18942>, 
+          0x55a4b58d5942 <_PyEval_EvalFrameDefault+26498>, 
+          0x55a4b58d2479 <_PyEval_EvalFrameDefault+12985>, 
+          0x55a4b58d0957 <_PyEval_EvalFrameDefault+6039>, 
+          0x55a4b58d3734 <_PyEval_EvalFrameDefault+17780>, 
+          0x55a4b58d1f03 <_PyEval_EvalFrameDefault+11587>, 
+          0x55a4b58d25da <_PyEval_EvalFrameDefault+13338>, 
+          0x55a4b58cfa72 <_PyEval_EvalFrameDefault+2226>, 
+          0x55a4b58d1606 <_PyEval_EvalFrameDefault+9286>, 
+          0x55a4b58d4769 <_PyEval_EvalFrameDefault+21929>, 
+          0x55a4b58d5b6b <_PyEval_EvalFrameDefault+27051>, 
+          0x55a4b58d318b <_PyEval_EvalFrameDefault+16331>, 
+          0x55a4b58d405b <_PyEval_EvalFrameDefault+20123>, 
+          0x55a4b58d5f47 <_PyEval_EvalFrameDefault+28039>, 
+          0x55a4b58d4525 <_PyEval_EvalFrameDefault+21349>, 
+          0x55a4b58d27ac <_PyEval_EvalFrameDefault+13804>, 
+          0x55a4b58d11aa <_PyEval_EvalFrameDefault+8170>, 
+          0x55a4b57e500b <_PyEval_EvalFrameDefault-958901> <repeats 74 times>, 
+          0x55a4b58d4dec <_PyEval_EvalFrameDefault+23596>}
+#21 0x000055a4b5987d36 in _PyEval_EvalFrame (throwflag=0x0, 
+    frame=0x7f050ec96020, tstate=0x55a4b5c5d9f8 <_PyRuntime+166328>)
+    at /usr/local/src/conda/python-3.11.5/Include/internal/pycore_ceval.h:73
+No locals.
+#22 _PyEval_Vector (tstate=tstate@entry=0x55a4b5c5d9f8 <_PyRuntime+166328>, 
+    func=func@entry=0x7f050e5984a0, locals=locals@entry=0x7f050e5f6a80, 
+    args=args@entry=0x0, argcount=argcount@entry=0x0, 
+    kwnames=kwnames@entry=0x0)
+    at /usr/local/src/conda/python-3.11.5/Python/ceval.c:6439
+        frame = 0x7f050ec96020
+        retval = <optimized out>
+#23 0x000055a4b59873ef in PyEval_EvalCode (co=co@entry=0x55a4b64ad230, 
+    globals=globals@entry=0x7f050e5f6a80, locals=locals@entry=0x7f050e5f6a80)
+    at /usr/local/src/conda/python-3.11.5/Python/ceval.c:1154
+        tstate = 0x55a4b5c5d9f8 <_PyRuntime+166328>
+        builtins = <optimized out>
+        desc = {
+          fc_globals = 0x7f050e5f6a80,
+          fc_builtins = 0x7f050e590e80,
+          fc_name = 0x55a4b5c3a4d0 <_PyRuntime+21648>,
+          fc_qualname = 0x55a4b5c3a4d0 <_PyRuntime+21648>,
+          fc_code = 0x55a4b64ad230,
+          fc_defaults = 0x0,
+          fc_kwdefaults = 0x0,
+          fc_closure = 0x0
+        }
+        func = 0x7f050e5984a0
+        res = <optimized out>
+#24 0x000055a4b59a5f2a in run_eval_code_obj (
+    tstate=tstate@entry=0x55a4b5c5d9f8 <_PyRuntime+166328>, 
+    co=co@entry=0x55a4b64ad230, globals=globals@entry=0x7f050e5f6a80, 
+    locals=locals@entry=0x7f050e5f6a80)
+    at /usr/local/src/conda/python-3.11.5/Python/pythonrun.c:1712
+        v = <optimized out>
+#25 0x000055a4b59a2343 in run_mod (mod=mod@entry=0x55a4b64c5740, 
+    filename=filename@entry=0x7f050e490c30, 
+    globals=globals@entry=0x7f050e5f6a80, locals=locals@entry=0x7f050e5f6a80, 
+    flags=flags@entry=0x7ffc3fc7b4f8, arena=arena@entry=0x7f050e51b5f0)
+    at /usr/local/src/conda/python-3.11.5/Python/pythonrun.c:1733
+        tstate = 0x55a4b5c5d9f8 <_PyRuntime+166328>
+        co = 0x55a4b64ad230
+        v = <optimized out>
+#26 0x000055a4b59b7300 in pyrun_file (fp=fp@entry=0x55a4b63ed370, 
+    filename=filename@entry=0x7f050e490c30, start=start@entry=0x101, 
+    globals=globals@entry=0x7f050e5f6a80, locals=locals@entry=0x7f050e5f6a80, 
+    closeit=closeit@entry=0x1, flags=0x7ffc3fc7b4f8)
+    at /usr/local/src/conda/python-3.11.5/Python/pythonrun.c:1628
+        arena = 0x7f050e51b5f0
+        mod = 0x55a4b64c5740
+        ret = <optimized out>
+#27 0x000055a4b59b6c5e in _PyRun_SimpleFileObject (fp=0x55a4b63ed370, 
+    filename=0x7f050e490c30, closeit=0x1, flags=0x7ffc3fc7b4f8)
+    at /usr/local/src/conda/python-3.11.5/Python/pythonrun.c:440
+        m = 0x7f050e5d7f60
+        d = 0x7f050e5f6a80
+        v = <optimized out>
+        set_file_name = <optimized out>
+        ret = 0xffffffff
+        done = <optimized out>
+        pyc = <optimized out>
+#28 0x000055a4b59b6a44 in _PyRun_AnyFileObject (fp=0x55a4b63ed370, 
+    filename=filename@entry=0x7f050e490c30, closeit=closeit@entry=0x1, 
+    flags=flags@entry=0x7ffc3fc7b4f8)
+    at /usr/local/src/conda/python-3.11.5/Python/pythonrun.c:79
+        decref_filename = 0x0
+        res = <optimized out>
+#29 0x000055a4b59b0bdf in pymain_run_file_obj (skip_source_first_line=0x0, 
+    filename=0x7f050e490c30, program_name=0x7f050e553c30)
+    at /usr/local/src/conda/python-3.11.5/Modules/main.c:360
+        fp = <optimized out>
+        sb = {
+          st_dev = 0x10307,
+          st_ino = 0x6c0ad6,
+          st_nlink = 0x1,
+          st_mode = 0x81a4,
+          st_uid = 0x3e8,
+          st_gid = 0x3e8,
+          __pad0 = 0x0,
+          st_rdev = 0x0,
+          st_size = 0x751,
+          st_blksize = 0x1000,
+          st_blocks = 0x8,
+          st_atim = {
+            tv_sec = 0x6562f0dc,
+            tv_nsec = 0x2635169b
+          },
+          st_mtim = {
+            tv_sec = 0x6562f0dc,
+            tv_nsec = 0x24c6e053
+          },
+          st_ctim = {
+            tv_sec = 0x6562f0dc,
+            tv_nsec = 0x24c6e053
+          },
+          __unused = {0x0, 0x0, 0x0}
+        }
+        cf = {
+          cf_flags = 0x0,
+          cf_feature_version = 0xb
+        }
+        run = <optimized out>
+        fp = <optimized out>
+        sb = <optimized out>
+        cf = <optimized out>
+        run = <optimized out>
+        ch = <optimized out>
+#30 pymain_run_file (config=0x55a4b5c43a40 <_PyRuntime+59904>)
+    at /usr/local/src/conda/python-3.11.5/Modules/main.c:379
+        filename = 0x7f050e490c30
+        program_name = 0x7f050e553c30
+        res = <optimized out>
+        filename = <optimized out>
+        program_name = <optimized out>
+        res = <optimized out>
+#31 pymain_run_python (exitcode=0x7ffc3fc7b4f4)
+    at /usr/local/src/conda/python-3.11.5/Modules/main.c:601
+        main_importer_path = <optimized out>
+        interp = 0x55a4b5c43678 <_PyRuntime+58936>
+        config = 0x55a4b5c43a40 <_PyRuntime+59904>
+        error = <optimized out>
+        main_importer_path = <optimized out>
+        interp = <optimized out>
+        config = <optimized out>
+        error = <optimized out>
+        done = <optimized out>
+        path0 = <optimized out>
+        res = <optimized out>
+#32 Py_RunMain () at /usr/local/src/conda/python-3.11.5/Modules/main.c:680
+        exitcode = 0x0
+#33 0x000055a4b5975f97 in Py_BytesMain (argc=<optimized out>, 
+    argv=<optimized out>)
+    at /usr/local/src/conda/python-3.11.5/Modules/main.c:734
+        args = {
+          argc = 0x2,
+          use_bytes_argv = 0x1,
+          bytes_argv = 0x7ffc3fc7b748,
+          wchar_argv = 0x0
+        }
+#34 0x00007f050e9e76ca in __libc_start_call_main (
+    main=main@entry=0x55a4b5975ef0 <main>, argc=argc@entry=0x2, 
+    argv=argv@entry=0x7ffc3fc7b748)
+    at ../sysdeps/nptl/libc_start_call_main.h:58
+        self = <optimized out>
+        result = <optimized out>
+        unwind_buf = {
+          cancel_jmp_buf = {{
+              jmp_buf = {0x7ffc3fc7b748, 0x5792234e7d44e5c6, 0x0, 
+                0x7ffc3fc7b760, 0x0, 0x7f050ecd5000, 0xa86a5cc111c0e5c6, 
+                0xa9983e729044e5c6},
+              mask_was_saved = 0x0
+            }},
+          priv = {
+            pad = {0x0, 0x0, 0x0, 0x7ffc3fc7b748},
+            data = {
+              prev = 0x0,
+              cleanup = 0x0,
+              canceltype = 0x0
+            }
+          }
+        }
+        not_first_call = <optimized out>
+#35 0x00007f050e9e7785 in __libc_start_main_impl (main=0x55a4b5975ef0 <main>, 
+    argc=0x2, argv=0x7ffc3fc7b748, init=<optimized out>, fini=<optimized out>, 
+    rtld_fini=<optimized out>, stack_end=0x7ffc3fc7b738)
+    at ../csu/libc-start.c:360
+No locals.
+#36 0x000055a4b5975e3d in _start ()
+No symbol table info available.
+[Inferior 1 (process 21408) detached]
+30	../sysdeps/unix/sysv/linux/wait4.c: No such file or directory.
+Traceback (most recent call last):
+  File "<string>", line 25, in <module>
+ModuleNotFoundError: No module named 'Cython'
+Error while executing Python code.
